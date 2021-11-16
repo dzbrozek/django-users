@@ -37,6 +37,14 @@ The task is made up of 5 parts plus an optional task.
 This app is using Docker so make sure you have both: [Docker](https://docs.docker.com/install/)
 and [Docker Compose](https://docs.docker.com/compose/install/)
 
+#### Prepare env variables
+
+Copy env variables from the template
+
+```
+cp .env.template .env
+```
+
 #### Build and bootstrap the app
 
 ```
@@ -62,10 +70,14 @@ make down
 
 Test users created during bootstrapping the project.
 
-| Login    | Password |
-|----------|----------|
-| demo     | password |
+| Login    | Password | Superuser |
+|----------|----------|-----------|
+| demo     | password | yes       |
 
 ### Tests
 
-To run the tests use `make test` command
+To run tests use the `make test` command
+
+### Local development
+
+Read more about [local development](./docs/DEV.md)

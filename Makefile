@@ -1,4 +1,4 @@
-.PHONY : shell build up bootstrap down removevolumes mypy test managepy precommit testci migrate makemigrations bash
+.PHONY : shell build up bootstrap down removevolumes mypy test managepy precommit migrate makemigrations bash
 
 build:
 	docker build -t django-users \
