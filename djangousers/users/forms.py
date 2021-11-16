@@ -9,7 +9,10 @@ class CreateUserForm(forms.ModelForm):
     class Meta:
         model = User
         fields = ['username', 'password', 'birthday']
-        widgets = {'password': widgets.PasswordInput(), 'birthday': widgets.DateInput()}
+        widgets = {'password': widgets.PasswordInput()}
+        help_texts = {
+            'birthday': "Format: yyyy-mm-dd",
+        }
 
     def save(self, commit: bool = True) -> User:
         user = super().save(commit=False)
