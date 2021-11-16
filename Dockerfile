@@ -12,7 +12,7 @@ RUN addgroup --gid $GROUP_ID user \
 COPY requirements /app/requirements/
 COPY entrypoint /app/entrypoint/
 
-WORKDIR /app/emenuapi
+WORKDIR /app/djangousers
 
 RUN pip install -r /app/requirements/dev.txt --no-cache-dir \
     && apt-get update \

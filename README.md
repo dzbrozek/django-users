@@ -27,7 +27,7 @@ The task is made up of 5 parts plus an optional task.
 | user3 | 7/30/2010 | blocked | 51 | 51 |
 | user4 | 6/16/1968 | allowed | 30 | BizzFuzz |
 
-[![codecov](https://codecov.io/gh/dzbrozek/django-users/branch/main/graph/badge.svg)](https://codecov.io/gh/dzbrozek/django-users)
+[![codecov](https://codecov.io/gh/dzbrozek/django-users/branch/main/graph/badge.svg?token=Y06p3pzdwL)](https://codecov.io/gh/dzbrozek/django-users)
 
 
 ### Development
