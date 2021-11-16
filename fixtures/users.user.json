@@ -14,7 +14,207 @@
         "is_active": true,
         "date_joined": "2021-11-16T08:04:56.123Z",
         "birthday": "2021-11-16",
-        "random_number": 60,
+        "random_number": 50,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$vkwAFgM5xaA5mICD3D9Sa8$IsAi+Ym2PxYEmI+9WNbEz8Ze+DTwCnFw6NuOLRxvoIg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user-0",
+        "first_name": "",
+        "last_name": "",
+        "email": "user-0@example.com",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2021-11-16T10:31:31.350Z",
+        "birthday": "1946-07-06",
+        "random_number": 27,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$YM12nkPMlfEDa0FTSOYqF4$hJbTldBXlAM2LhRYiKceO50lpT/4lMptWBwXNyZwvKs=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user-1",
+        "first_name": "",
+        "last_name": "",
+        "email": "user-1@example.com",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2021-11-16T10:31:31.667Z",
+        "birthday": "1902-06-20",
+        "random_number": 8,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$eYWP4YbJY7pPVANxyMGzaO$gi9JV/F/9se3j1ZVtH2EBo/HZ2WwxruMLvPrs6y8vOo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user-2",
+        "first_name": "",
+        "last_name": "",
+        "email": "user-2@example.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-11-16T10:31:31.850Z",
+        "birthday": "1919-01-31",
+        "random_number": 15,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$Vfe9gIPaeQXLcBV79ztVKI$y7PGDx/+KyyN3AwbF5kk3eLrAvt+HJXQ3hzI5ZQQtK8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user-3",
+        "first_name": "",
+        "last_name": "",
+        "email": "user-3@example.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-11-16T10:31:32.010Z",
+        "birthday": "1998-08-14",
+        "random_number": 17,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$lmrEzaT2o2wjquRbPz3KDM$ESRR9eioM4A1hhR7fNWZPbH82Iv338zAzWpwG5MoHdE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user-4",
+        "first_name": "",
+        "last_name": "",
+        "email": "user-4@example.com",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2021-11-16T10:31:32.158Z",
+        "birthday": "2010-04-15",
+        "random_number": 42,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$0D2WzEFNNqwUYN0HKyHnYo$E1T3azPzwie6i8QPyoR9ppWbFAyHyX+RcHQ/eKz9Al8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user-5",
+        "first_name": "",
+        "last_name": "",
+        "email": "user-5@example.com",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2021-11-16T10:31:32.313Z",
+        "birthday": "1992-09-12",
+        "random_number": 19,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$HYmeF4VKwfEENndlJX30yZ$KGh6I/JSZhZ98Puz1InDqoqXoOvHWa+eDu3f2mjLdxY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user-6",
+        "first_name": "",
+        "last_name": "",
+        "email": "user-6@example.com",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2021-11-16T10:31:32.483Z",
+        "birthday": "1993-09-04",
+        "random_number": 9,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 9,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$RODyKvlrCdTIXOJgdNdzkv$f0rPZ87xFB9ROS0EFkQgXbmENUiSyHKWSI7OnrnuS7A=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user-7",
+        "first_name": "",
+        "last_name": "",
+        "email": "user-7@example.com",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2021-11-16T10:31:32.631Z",
+        "birthday": "2021-04-21",
+        "random_number": 84,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 10,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$47uT0f73fna69tGFY8fy32$5MnU7WGjCwC0X3ViKPxB0koheDzxUHA7thhW+YRmB9E=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user-8",
+        "first_name": "",
+        "last_name": "",
+        "email": "user-8@example.com",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2021-11-16T10:31:32.780Z",
+        "birthday": "1930-01-06",
+        "random_number": 40,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 11,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$7Fo0TjzPmB7Ca4Fir8MCkg$Lu4+ujmF+r+sRRqXCwomIBDjIY7mGk7LXMAlCnsT6s8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user-9",
+        "first_name": "",
+        "last_name": "",
+        "email": "user-9@example.com",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2021-11-16T10:31:32.963Z",
+        "birthday": "1947-11-15",
+        "random_number": 98,
         "groups": [],
         "user_permissions": []
     }
