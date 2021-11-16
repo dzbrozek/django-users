@@ -6,17 +6,17 @@ ENV COLUMNS=80
 ARG USER_ID
 ARG GROUP_ID
 
-RUN addgroup --gid $GROUP_ID user
-RUN adduser --disabled-password --gecos "" --uid $USER_ID --gid $GROUP_ID user
+RUN addgroup --gid $GROUP_ID user \
+  && adduser --disabled-password --gecos "" --uid $USER_ID --gid $GROUP_ID user
 
 COPY requirements /app/requirements/
 COPY entrypoint /app/entrypoint/
 
-WORKDIR /app/djangousers
+WORKDIR /app/emenuapi
 
-RUN pip install -r /app/requirements/dev.txt
-
-RUN apt-get update && apt-get install -y \
+RUN pip install -r /app/requirements/dev.txt --no-cache-dir \
+    && apt-get update \
+    && apt-get install -y \
     vim=2:8.1.0875-5 \
     postgresql-client=11+200+deb10u4 \
     --no-install-recommends \
