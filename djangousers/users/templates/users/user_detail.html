@@ -1,0 +1,14 @@
+<h1>{{ user }}</h1>
+
+<div>
+    <p><b>Username</b>: {{ user.username }}</p>
+    <p><b>Birthday</b>: {{ user.birthday }}</p>
+    <p><b>Eligible</b>: N/A</p>
+    <p><b>Random Number</b>: {{ user.random_number }}</p>
+    <p><b>BizzFuzz</b>: N/A</p>
+</div>
+
+<h2>Actions</h2>
+
+<a href="{% url "user-delete" pk=user.pk %}">Delete</a>
+<a href="{% url "user-update" pk=user.pk %}">Update</a>

@@ -1,0 +1,32 @@
+<h1>Users</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Birthday</th>
+            <th>Eligible</th>
+            <th>Random Number</th>
+            <th>BizzFuzz</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for user in users %}
+            <tr>
+                <td><a href="{% url "user-details" pk=user.pk %}">{{ user.username }}</a></td>
+                <td>{{ user.birthday|date:"j/n/Y" }}</td>
+                <td>N/A</td>
+                <td>{{ user.random_number }}</td>
+                <td>N/A</td>
+            </tr>
+        {% empty %}
+             <tr>
+                <td colspan="5">No users yet.</td>
+             </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<h2>Actions</h2>
+
+<a href="{% url "user-create"  %}">Create</a>
