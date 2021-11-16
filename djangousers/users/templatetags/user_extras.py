@@ -9,7 +9,6 @@ register = template.Library()
 
 @register.filter
 def is_allowed(value: datetime.date) -> str:
-    """Removes all values of arg from the given string"""
     fourteen_years_ago = timezone.now().date() - relativedelta(years=14)
     is_old_enough = value <= fourteen_years_ago
 
