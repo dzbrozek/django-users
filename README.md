@@ -18,14 +18,14 @@ The task is made up of 5 parts plus an optional task.
 5. Unit test what you feel is appropriate to test.
 6. Create a download link on the list view. The link would return the list of results in Excel's format (csv format is ok).
 
-**Sample Output:**
+   **Sample Output:**
 
-| Username | Birthday | Eligible | Random Number | BizzFuzz |
-|----------|----------|----------|---------------|----------|
-| user1 | 1/1/2013 | blocked | 40 | Fuzz |
-| user2 | 11/4/1975 | allowed | 66 | Bizz |
-| user3 | 7/30/2010 | blocked | 51 | 51 |
-| user4 | 6/16/1968 | allowed | 30 | BizzFuzz |
+   | Username | Birthday | Eligible | Random Number | BizzFuzz |
+   |----------|----------|----------|---------------|----------|
+   | user1 | 1/1/2013 | blocked | 40 | Fuzz |
+   | user2 | 11/4/1975 | allowed | 66 | Bizz |
+   | user3 | 7/30/2010 | blocked | 51 | 51 |
+   | user4 | 6/16/1968 | allowed | 30 | BizzFuzz |
 
 [![codecov](https://codecov.io/gh/dzbrozek/django-users/branch/main/graph/badge.svg?token=Y06p3pzdwL)](https://codecov.io/gh/dzbrozek/django-users)
 
