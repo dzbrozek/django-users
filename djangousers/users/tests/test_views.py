@@ -126,3 +126,16 @@ class UserCreateViewTest(TestCase):
         self.assertEqual(user.birthday, datetime.date(1993, 9, 4))
         self.assertTrue(user.is_active)
         self.assertTrue(user.check_password(data['password']))
+
+
+class UserExportViewTest(TestCase):
+    def test_export_users(self):
+        UserFactory(username='demo', birthday=datetime.date(2000, 1, 15), random_number=10)
+
+        response = self.client.get(reverse('user-export'))
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(
+            response.content,
+            b'Username,Birthday,Eligible,Random Number,BizzFuzz\r\ndemo,15/01/2000,allowed,10,Fuzz\r\n',
+        )
