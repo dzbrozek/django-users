@@ -1,11 +1,13 @@
-<h1>{{ user }}</h1>
+{% load user_extras %}
+
+<h1>{{ user.username }}</h1>
 
 <div>
     <p><b>Username</b>: {{ user.username }}</p>
     <p><b>Birthday</b>: {{ user.birthday }}</p>
-    <p><b>Eligible</b>: N/A</p>
+    <p><b>Eligible</b>: {{ user.birthday|is_allowed }}</p>
     <p><b>Random Number</b>: {{ user.random_number }}</p>
-    <p><b>BizzFuzz</b>: N/A</p>
+    <p><b>BizzFuzz</b>: {{ user.random_number|bizz_fuzz }}</p>
 </div>
 
 <h2>Actions</h2>
